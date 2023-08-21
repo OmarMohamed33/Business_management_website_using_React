@@ -1,0 +1,222 @@
+.div-4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: 60%;
+
+}
+
+.div-41 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 90px;
+    margin-top: 4%;
+
+}
+
+
+.social-icon a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+
+
+}
+
+.social-icon img {
+    width: 48px;
+    height: 48px;
+}
+
+.social-icon {
+    margin-top: 10px;
+}
+
+
+.div-42 {
+    width: 30%;
+}
+
+.div-42 img {
+    width: 600px;
+    margin-top: 40%;
+    padding: 25px;
+}
+
+.div-43 {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.div-43 form {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    border: 2px solid #E5E5E5;
+    border-radius: 80px 80px 80px 0;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+
+.form-label,
+.input-label {
+    padding: 10px;
+}
+
+
+.input-label {
+    width: auto;
+    border: 2px solid #e1e3e2;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-size: 27px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 45px;
+}
+
+
+[type="submit"] {
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin-top: 25px;
+    color: white;
+    background: gray;
+    padding: 8px 30px;
+    width: fit-content;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+[type="submit"]:hover {
+    color: gray;
+    background: white;
+
+}
+
+
+[id="Message"] {
+
+    padding: 15px;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+    width: 400px;
+    height: 85px;
+    resize: none;
+
+}
+
+
+[id="Name"] {
+    background-image: url('./Images/user1.png');
+}
+
+[id="Email"] {
+    background-image: url('./Images/email.png');
+}
+
+[id="Subject"] {
+
+    background-image: url('./Images/book.png')
+}
+
+
+
+
+
+
+
+
+
+/* media 1820  */
+
+
+@media only screen and (max-width: 1820px) {
+
+
+    /* contact page  */
+
+    .div-41 {
+
+        margin: 0;
+    }
+
+    .div-42 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .div-42 img {
+        
+        padding: 0;
+        width: 100%;
+    }
+
+    .div-43 {
+        margin-left: 0;
+        width: 40%;
+    }
+
+    .div-43 form {
+        width: 100%;
+        height: fit-content;
+        padding: 35px;
+    }
+
+    [type="text"] {
+        width: 80%;
+    }
+
+    [id="Message"] {
+        width: 90%;
+    }
+
+
+}
+
+
+
+
+/* media 768  */
+
+@media only screen and (max-width: 768px) {
+
+    /* contact page  */
+
+    .div-4 {
+        flex-direction: column-reverse;
+    }
+
+    .div-41 {
+        flex-direction: row;
+    }
+
+    .div-42 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .div-42 img {
+        margin: 0 auto;
+    }
+
+    .div-43 {
+
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+}

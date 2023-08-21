@@ -1,0 +1,188 @@
+
+
+
+.Title-1 {
+    color: #5b5b5c;
+    font-size: 70px;
+    height: 75px;
+
+}
+
+
+.Title-2 {
+    color: #5b5b5c;
+    font-size: 42px;
+    margin-right: 50px;
+    height: 60px;
+
+}
+
+.paragraph-1 {
+    color: #5b5b5c;
+
+}
+
+
+.div-11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    margin-left: 70px;
+    width: min-content;
+
+}
+
+
+.btn-11 {
+    cursor: pointer;
+    width: fit-content;
+    list-style-type: none;
+    height: fit-content;
+    background-color: #f6a948;
+    text-align: center;
+    border: 2px solid #f6a948;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    transition-duration: 50ms;
+
+}
+
+
+.btn-11:hover {
+    color: #f6a948;
+    background-color: white;
+
+
+}
+
+
+
+.div-1 {
+
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media 1820  */
+
+
+@media only screen and (max-width: 1820px) {
+
+
+
+
+    .div-1 {
+
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+
+
+
+    .div-11 {
+        width: 40%;
+        height: 100%;
+    }
+
+    .div-11 h1,
+    .div-11 h2,
+    .div-11 p {
+        width: 100%;
+
+    }
+
+    .div-12 {
+        width: 50%;
+    }
+
+
+    .div-12 img {
+        width: 75%;
+        margin-top: 25px;
+
+
+    }
+
+}
+
+
+
+
+/* media 920                                         page one */
+@media only screen and (max-width: 920px) {
+
+
+
+
+    .div-1 {
+        height: 70%;
+        justify-content: center;
+
+    }
+
+    .div-11 h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+
+    }
+
+    .div-11 h2 {
+        font-size: 15px;
+        margin-top: 10px;
+
+    }
+
+    .div-11 p {
+        font-size: 10px;
+        margin-top: 22px;
+
+
+    }
+
+    .Title-1 {
+        font-size: 50px;
+        height: 10px;
+    }
+
+    .Title-2 {
+        font-size: 30px;
+        margin-right: 0;
+        height: 0px;
+    }
+
+
+    .btn-11 {
+        font-size: 7px;
+        padding: 5px 10px;
+        border-width: 1px;
+    }
+
+}
+
+
+

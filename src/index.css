@@ -1,0 +1,33 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f6b54f;
+  font-family: 'Raleway', sans-serif;
+  height: 1200px;
+  scroll-behavior: smooth;
+  color: #5b5b5c;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 0px;
+  width: 80%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 47px;
+  height: 800px;
+  margin-top: 5%;
+
+
+}
+
+
+
+
+

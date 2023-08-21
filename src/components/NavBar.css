@@ -1,0 +1,174 @@
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+
+.logo-text {
+    color: #5b5b5c;
+    font-size: 22px;
+    line-height: 3.1;
+}
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f6b54f;
+    border-radius: 10px;
+    background-color: #f6b54f;
+    margin: 10px 0 0 10px;
+}
+
+
+
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+nav {
+    width: 40%;
+}
+
+.nav-bar {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding: 35px;
+  margin-top: 25px;
+
+}
+
+
+
+.nav-bar li a {
+    text-decoration: none;
+    color: #5b5b5c;
+    padding: 5px 15px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-right: 20px;
+
+}
+
+
+.nav-bar li a:hover , .active
+{
+
+    color: white;
+    background-color: #f6a948;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media 1820  */
+
+@media only screen and (max-width: 1820px) {
+
+    .header {
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        gap: 10px;
+    }
+
+    nav {
+
+        width: 100%;
+
+    }
+
+    .nav-bar {
+        justify-content: flex-end;
+        gap: 30px;
+
+    }
+    .nav-bar li {
+        width: fit-content;
+        margin-top: 15px;
+    }
+
+
+    .nav-bar li a {
+        margin-right: 0px;
+        padding: 2px 2px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        margin-right: 1px;
+    }
+
+
+    .container {
+        margin-top: 50px;
+        height: fit-content;
+        padding-bottom: 50px;
+        width: fit-content;
+    }
+
+}
+
+
+
+/* media 768  */
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+    .header {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        justify-content: space-between;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .nav-bar {
+        justify-content: center;
+        gap: 10px;
+        width: fit-content;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
+
+
+    .nav-bar li a {
+
+        font-size: 13px;
+
+    }
+
+
+
+}
+
+
